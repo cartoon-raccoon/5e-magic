@@ -1,4 +1,5 @@
-# dnd5emagic
+# artificer-magic
 
-A Python library to model the spell system of D&D 5E,
-made for shits and giggles.
+D&D 5e magic, made the way artificers would see it.
+
+Made for shits and giggles.

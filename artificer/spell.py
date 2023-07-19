@@ -1,6 +1,8 @@
 from enum import Enum
 from abc import ABC, abstractmethod
 
+from typing import Any
+
 from .target import Target
 
 class Component(object):
@@ -11,7 +13,7 @@ class Component(object):
     SOMATIC = 1
     MATERIAL = 2
 
-    def __init__(self, ty: int, details):
+    def __init__(self, ty: int, details: Any):
         self.ty = ty
         self.detail = details
 
