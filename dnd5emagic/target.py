@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from enum import Enum
 
-from . import SpellEffect, Damage
+from .spell import SpellEffect, Damage
 
 class Target(ABC):
     """
